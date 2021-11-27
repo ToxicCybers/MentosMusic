@@ -9,7 +9,7 @@ from Music.MusicUtilities.database.sudo import (get_sudoers, get_sudoers, remove
 from pyrogram import filters, Client
 from pyrogram.types import Message
 
-@app.on_message(filters.command("addsudo") & filters.user(OWNER))
+@app.on_message(filters.command("auth") & filters.user(OWNER))
 async def useradd(_, message: Message):
     if not message.reply_to_message:
         if len(message.command) != 2:
@@ -43,7 +43,7 @@ async def useradd(_, message: Message):
     return    
           
               
-@app.on_message(filters.command("delsudo") & filters.user(OWNER))
+@app.on_message(filters.command("dauth") & filters.user(OWNER))
 async def userdel(_, message: Message):
     if not message.reply_to_message:
         if len(message.command) != 2:
@@ -74,7 +74,7 @@ async def userdel(_, message: Message):
     await message.reply_text(f"Something wrong happened.")
                 
                           
-@app.on_message(filters.command("sudolist"))
+@app.on_message(filters.command("authlist"))
 async def sudoers_list(_, message: Message):
     sudoers = await get_sudoers()
     text = "**__Sudo Users List of Music:-__**\n\n"
