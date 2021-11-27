@@ -20,7 +20,7 @@ Disk: {disk}%'''
     return stats
 
 
-@app.on_message(filters.command(["ping", "ping@Tg_Vc_00_Bot"]))
+@app.on_message(filters.command(["ping", "ping@DeCodeMusicBot"]))
 async def ping(_, message):
     uptime = await bot_sys_stats()
     start = datetime.now()
