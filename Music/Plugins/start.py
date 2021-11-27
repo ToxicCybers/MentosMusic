@@ -43,7 +43,8 @@ pstart_markup=InlineKeyboardMarkup(
                         "📢 Uᴘᴅᴀᴛᴇꜱ 📢", url=f"https://t.me/MentosUpdates"), 
                     InlineKeyboardButton(
                         "💬 Sᴜᴘᴘᴏʀᴛ 💬", url=f"https://t.me/MentosSupport")
-                ],[
+                ],
+                [
                     InlineKeyboardButton(
                         "🧑‍💻 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 🧑‍💻", url=f"https://GitHub.com/ToxicCybers/MentosMusic")
                 ]
