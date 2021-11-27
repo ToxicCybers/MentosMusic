@@ -1,13 +1,13 @@
 {
-    "name": "Music",
-    "logo": "https://te.legra.ph/file/9f1701111d815073d743b.jpg",
+    "name": "Mentos Music",
+    "logo": "https://te.legra.ph/file/24add7d3f42fdf0a909c7.jpg",
     "description": "Music allow you to stream music trought the telegram voice chat feature.",
     "keywords": [
         "music", 
         "voice chat", 
         "telegram"
     ],
-    "repository": "https://github.com/Hunter-XDD/Music",
+    "repository": "https://github.com/ToxicCybers/MentosMusic",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
