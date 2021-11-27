@@ -24,8 +24,8 @@ def start_pannel():
                 InlineKeyboardButton(text="🎚 Commands Menu", url="https://telegra.ph/Music-Bot-10-10")
             ],
             [ 
-                InlineKeyboardButton(text="📨Official Channel", url="https://t.me/joinchat/9gdl_KgFqbIxZmZh"),
-                InlineKeyboardButton(text="📨Support Group", url="https://t.me/joinchat/9gdl_KgFqbIxZmZh")
+                InlineKeyboardButton(text="📨Official Channel", url="https://t.me/DeeCodeBots"),
+                InlineKeyboardButton(text="📨Support Group", url="https://t.me/DeCodeSupport")
             ],
     ]
     return "🎛  **This is Music Music Bot**", buttons
@@ -37,12 +37,12 @@ pstart_markup=InlineKeyboardMarkup(
                         "🧰 Commands List", url=f"https://telegra.ph/Music-Bot-10-10")],
                 [
                     InlineKeyboardButton(
-                        "📲 Channel", url=f"https://t.me/joinchat/9gdl_KgFqbIxZmZh"), 
+                        "📲 Channel", url=f"https://t.me/DeeCodeBots"), 
                     InlineKeyboardButton(
-                        "💬 Support", url=f"https://t.me/joinchat/9gdl_KgFqbIxZmZh")
+                        "💬 Support", url=f"https://t.me/DeCodeSupport")
                 ],[
                     InlineKeyboardButton(
-                        "➕ Add Me To Your Group", url=f"https://t.me/Tg_Vc_00_Bot?startgroup=true")
+                        "➕ Add Me To Your Group", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ]
             ]
         )
