@@ -4,7 +4,7 @@
 
 𝐅𝐎𝐑 𝐀𝐍𝐘 𝐐𝐔𝐄𝐑𝐘 𝐉𝐎𝐈𝐍 𝐎𝐔𝐑 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 ❤️🙏
 
-[![MUSICBOT LOGO](https://telegra.ph/file/dfdb5d19a974a615aa98e.jpg)](https://t.me/XMentosSupport )
+[![MUSICBOT LOGO](https://te.legra.ph/file/435fe21cfe4eabcee232a.jpg)](https://t.me/XMentosSupport )
 
 🔥 𝐃𝐄𝐏𝐋𝐎𝐘 𝐎𝐍 𝐘𝐎𝐔𝐑 𝐎𝐖𝐍 𝐑𝐈𝐒𝐊 🔥
 
