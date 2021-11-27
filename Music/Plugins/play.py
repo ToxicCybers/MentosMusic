@@ -96,7 +96,7 @@ async def play(_, message: Message):
         + "\n**Permission:** __BAN USERS__")
         return
     try:
-        b = await app.get_chat_member(message.chat.id , ASSID) 
+        b = await app.get_chat_member(message.chat.id , user_id) 
         if b.status == "kicked":
             await message.reply_text(f"{ASSNAME}(@{ASSUSERNAME}) is banned in your chat **{chat_title}**\n\nUnban it first to use Music")
             return
