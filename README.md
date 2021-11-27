@@ -26,7 +26,5 @@ JorDen
 Shubhanshu
 Kaju
 Kishan
-Kaju
-Kishan
-Kaju
+```
 
