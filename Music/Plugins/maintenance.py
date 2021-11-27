@@ -36,10 +36,10 @@ async def sls_skfs(_, message):
     if state == "enable":
         user_id = 2
         await add_on(user_id)
-        await message.reply_text("Speedtest Enabled")
+        await message.reply_text("𝗦𝗽𝗲𝗲𝗱𝘁𝗲𝘀𝘆 𝗘𝗻𝗮𝗯𝗹𝗲𝗱")
     elif state == "disable":
         user_id = 2
         await add_off(user_id)
-        await message.reply_text("Speedtest Disabled")
+        await message.reply_text("Speedtest 𝗗𝗶𝘀𝗮𝗯𝗹𝗲𝗱")
     else:
         await message.reply_text(usage)
