@@ -21,11 +21,11 @@ from Music.MusicUtilities.database.sudo import (get_sudoers, get_sudoers, remove
 def start_pannel():  
     buttons  = [
             [
-                InlineKeyboardButton(text="🎚 Commands Menu", url="https://telegra.ph/Music-Bot-10-10")
+                InlineKeyboardButton(text="🎚 Commands Menu", url="https://telegra.ph/Mentos-Music-11-27")
             ],
             [ 
-                InlineKeyboardButton(text="📨Official Channel", url="https://t.me/DeeCodeBots"),
-                InlineKeyboardButton(text="📨Support Group", url="https://t.me/DeCodeSupport")
+                InlineKeyboardButton(text="📨Official Channel", url="https://t.me/MentosUpdates"),
+                InlineKeyboardButton(text="📨Support Group", url="https://t.me/MentosSupport")
             ],
     ]
     return "🎛  **This is Music Music Bot**", buttons
@@ -34,15 +34,18 @@ pstart_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🧰 Commands List", url=f"https://telegra.ph/Music-Bot-10-10")],
+                        "💞 Sᴜᴍᴍᴏɴ Mᴇ 💞", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 [
                     InlineKeyboardButton(
-                        "📲 Channel", url=f"https://t.me/DeeCodeBots"), 
+                        "🧰 Cᴏᴍᴍᴀɴᴅꜱ 🧰", url=f"https://telegra.ph/Mentos-Music-11-27")],
+                [
                     InlineKeyboardButton(
-                        "💬 Support", url=f"https://t.me/DeCodeSupport")
+                        "📢 Uᴘᴅᴀᴛᴇꜱ 📢", url=f"https://t.me/MentosUpdates"), 
+                    InlineKeyboardButton(
+                        "💬 Sᴜᴘᴘᴏʀᴛ 💬", url=f"https://t.me/MentosSupport")
                 ],[
                     InlineKeyboardButton(
-                        "➕ Add Me To Your Group", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "🧑‍💻 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 🧑‍💻", url=f"https://GitHub.com/ToxicCybers/MentosMusic")
                 ]
             ]
         )
