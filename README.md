@@ -1,5 +1,9 @@
 # MusicBot
 
+<a href="https://t.me/xMentosUpdates"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+<a href="t.me/xmentossupport"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
+
+
 𝗛𝗘𝗬 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢 𝗛𝗘𝗥𝗘  💫💫 𝗬𝗢𝗨 𝗖𝗔𝗡 𝗠𝗔𝗞𝗘 𝗬𝗢𝗨𝗥 𝗢𝗪𝗡 𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧 𝗙𝗢𝗥 𝗠𝗨𝗦𝗜𝗖 ♡︎♡︎
 
 𝐅𝐎𝐑 𝐀𝐍𝐘 𝐐𝐔𝐄𝐑𝐘 𝐉𝐎𝐈𝐍 𝐎𝐔𝐑 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 ❤️🙏
