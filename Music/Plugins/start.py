@@ -32,22 +32,16 @@ def start_pannel():
 
 pstart_markup=InlineKeyboardMarkup(
             [
-                [
-                    InlineKeyboardButton(
-                        "💞 Sᴜᴍᴍᴏɴ Mᴇ 💞", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
-                [
-                    InlineKeyboardButton(
-                        "🧰 Cᴏᴍᴍᴀɴᴅꜱ 🧰", url=f"https://telegra.ph/Mentos-Music-11-27")],
+                [InlineKeyboardButton("💞 Sᴜᴍᴍᴏɴ Mᴇ 💞", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")]
+                [InlineKeyboardButton("🧰 Cᴏᴍᴍᴀɴᴅꜱ 🧰", url=f"https://telegra.ph/Mentos-Music-11-27")],
                 [
                     InlineKeyboardButton(
                         "📢 Uᴘᴅᴀᴛᴇꜱ 📢", url=f"https://t.me/MentosUpdates"), 
                     InlineKeyboardButton(
                         "💬 Sᴜᴘᴘᴏʀᴛ 💬", url=f"https://t.me/MentosSupport")
                 ],
-                [
-                    InlineKeyboardButton(
-                        "🧑‍💻 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 🧑‍💻", url=f"https://GitHub.com/ToxicCybers/MentosMusic")
-                ]
+                [ InlineKeyboardButton("🧑‍💻 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 🧑‍💻", url=f"https://GitHub.com/ToxicCybers/MentosMusic"),]
+
             ]
         )
 welcome_captcha_group = 2
