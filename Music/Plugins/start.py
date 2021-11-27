@@ -24,8 +24,8 @@ def start_pannel():
                 InlineKeyboardButton(text="🎚 Commands Menu", url="https://telegra.ph/Mentos-Music-11-27")
             ],
             [ 
-                InlineKeyboardButton(text="📨Official Channel", url="https://t.me/MentosUpdates"),
-                InlineKeyboardButton(text="📨Support Group", url="https://t.me/MentosSupport")
+                InlineKeyboardButton(text="📨Official Channel", url="https://t.me/xMentosUpdates"),
+                InlineKeyboardButton(text="📨Support Group", url="https://t.me/xMentosSupport")
             ],
     ]
     return "🎛  **This is Music Music Bot**", buttons
@@ -35,12 +35,12 @@ pstart_markup=InlineKeyboardMarkup(
                 [
                     InlineKeyboardButton("💞 Sᴜᴍᴍᴏɴ Mᴇ 💞", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
                 ], 
-                [InlineKeyboardButton("🧰 Cᴏᴍᴍᴀɴᴅꜱ 🧰", url=f"https://telegra.ph/Mentos-Music-11-27")],
+                [InlineKeyboardButton("🧰 Cᴏᴍᴍᴀɴᴅꜱ 🧰", url=f"https://telegra.ph/Chutuya-11-27")],
                 [
                     InlineKeyboardButton(
-                        "📢 Uᴘᴅᴀᴛᴇꜱ 📢", url=f"https://t.me/MentosUpdates"), 
+                        "📢 Uᴘᴅᴀᴛᴇꜱ 📢", url=f"https://t.me/xMentosUpdates"), 
                     InlineKeyboardButton(
-                        "💬 Sᴜᴘᴘᴏʀᴛ 💬", url=f"https://t.me/MentosSupport")
+                        "💬 Sᴜᴘᴘᴏʀᴛ 💬", url=f"https://t.me/xMentosSupport")
                 ],
                 [ InlineKeyboardButton("🧑‍💻 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 🧑‍💻", url=f"https://GitHub.com/ToxicCybers/MentosMusic"),]
 
