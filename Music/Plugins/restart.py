@@ -22,10 +22,10 @@ async def theme_func(_, message):
     try:
         chats = await get_active_chats()
         for chat in chats:
-            served_chats.append(int(chat["chat_id"]))
-    except Exception as e:
-        pass
-    for x in served_chats:
+#            served_chats.append(int(chat["chat_id"]))
+#    except Exception as e:
+#       pass
+#    for x in served_chats:
         try:
             await app.send_message(x, "Music has just restarted herself. Sorry for the issues.\n\nStart playing after 10-15 seconds again.")
         except Exception:
@@ -43,7 +43,7 @@ async def theme_func(_, message):
         except Exception as e:
             await message.reply_text(f"{e}")
             pass    
-    x = await message.reply_text(f"__Restarting Music!__")   
+    x = await message.reply_text(f"__Restarting MentosMusic!__")   
     await start_restart_stage(x.chat.id, x.message_id)
     os.execvp(f"python{str(pyver.split(' ')[0])[:3]}", [
               f"python{str(pyver.split(' ')[0])[:3]}", "-m", "Music"])
