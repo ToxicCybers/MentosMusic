@@ -15,22 +15,22 @@ async def gstats(_, message):
             pass
         else:
             return
-    m = await message.reply_text("Running Music's speed test")
+    m = await message.reply_text("𝗥𝘂𝗻𝗻𝗶𝗻𝗴 𝗗𝗲𝗖𝗼𝗱𝗲𝗠𝘂𝘀𝗶𝗰 𝗦𝗽𝗲𝗲𝗱𝘁𝗲𝘀𝘁😏")
     try:
         test = speedtest.Speedtest()
         test.get_best_server()
-        m = await m.edit("Running Download SpeedTest")
+        m = await m.edit("𝗥𝘂𝗻𝗻𝗶𝗻𝗴 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗦𝗽𝗲𝗲𝗱𝘁𝗲𝘀𝘁😏")
         test.download()
-        m = await m.edit("Running Upload SpeedTest")
+        m = await m.edit("𝗥𝘂𝗻𝗻𝗶𝗻𝗴 𝗨𝗽𝗹𝗼𝗮𝗱 𝗦𝗽𝗲𝗲𝗱𝘁𝗲𝘀𝘁😏")
         test.upload()
         test.results.share()
         result = test.results.dict()
     except Exception as e:
         await message.err(text=e)
         return 
-    m = await m.edit("Sharing SpeedTest Results")
+    m = await m.edit("𝗗𝗘𝗞𝗛𝗔 𝗟𝗢 𝗦𝗣𝗘𝗘𝗗 𝗧𝗘𝗦𝗧😏")
     path = wget.download(result["share"])
-    output = f"""**Speedtest Results**
+    output = f"""**𝗦𝗽𝗲𝗲𝗱𝘁𝗲𝘀𝘁 𝗥𝗲𝘀𝘂𝗹𝘁𝘀😏**
     
 <u>**Client:**</u>
 
