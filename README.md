@@ -18,3 +18,15 @@ Hey Welcome To Here 💫💫 You Can Make Your Own Music Bot For Music 🎶
 
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/JorDenXD/MusicBot">
   <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-aqua?style=flat&logo=heroku" width="325" height="50.100" /></a></p>
+
+## CREDIT 💕
+```
+Toxic 
+JorDen
+Shubhanshu
+Kaju
+Kishan
+Kaju
+Kishan
+Kaju
+
