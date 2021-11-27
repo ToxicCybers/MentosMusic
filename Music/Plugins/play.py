@@ -57,9 +57,9 @@ def time_to_seconds(time):
 @Client.on_message(command(["play", "play@Tg_Vc_00_Bot"]))
 async def play(_, message: Message):
     chat_id = message.chat.id
-    if not await is_served_chat(chat_id):
-        await message.reply_text(f"**__Not in allowed chats.__**\n\nMusic Private is only for allowed chats. Ask any Sudo User to allow your chat.\nCheck Sudo Users List [From Here](https://t.me/{BOT_USERNAME}?start=sudolist)")
-        return await app.leave_chat(chat_id)  
+#   if not await is_served_chat(chat_id):
+#        await message.reply_text(f"**__Not in allowed chats.__**\n\nMusic Private is only for allowed chats. Ask any Sudo User to allow your chat.\nCheck Sudo Users List [From Here](https://t.me/{BOT_USERNAME}?start=sudolist)")
+#        return await app.leave_chat(chat_id)  
     if message.sender_chat:
         return await message.reply_text("You're an __Anonymous Admin__!\nRevert back to User Account From Admin Rights.")  
     user_id = message.from_user.id
