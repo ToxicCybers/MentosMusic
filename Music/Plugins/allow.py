@@ -13,9 +13,9 @@ async def blacklist_chat_func(_, message: Message):
     chat_id = int(message.text.strip().split()[1])
     if not await is_served_chat(chat_id):
         await add_served_chat(chat_id)
-        await message.reply_text("ADDED CHAT TO ALLOWED LIST")
+        await message.reply_text("✅ ADDED CHAT TO ALLOWED LIST")
     else:
-        await message.reply_text("ALREADY IN ALLOWED LIST")
+        await message.reply_text("😀 ALREADY IN ALLOWED LIST")
     
 @app.on_message(filters.command("disallow") & filters.user(SUDOERS))
 async def whitelist_chat_func(_, message: Message):
@@ -26,9 +26,9 @@ async def whitelist_chat_func(_, message: Message):
     chat_id = int(message.text.strip().split()[1])
     if not await is_served_chat(chat_id):
         await message.reply_text("Chat not allowed.")
-       return
+        return
     try:
-       await remove_served_chat(chat_id)
+        await remove_served_chat(chat_id)
         await message.reply_text("Chat diallowed.")
         return
     except Exception as e:
@@ -54,8 +54,8 @@ async def blacklisted_chats_func(_, message: Message):
         except Exception:
             title = "Private"
         count += 1
-       text += f"**{count}. {title}** [`{served_chat}`]\n"
+        text += f"**{count}. {title}** [`{served_chat}`]\n"
     if not text:
         await message.reply_text("No Allowed Chats")  
     else:
-         await message.reply_text(text)
+        await message.reply_text(text)
