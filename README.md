@@ -14,7 +14,7 @@ Hey Welcome To Here 💫💫 You Can Make Your Own Music Bot For Music 🎶
 
 🔥 𝐃𝐄𝐏𝐋𝐎𝐘 𝐎𝐍 𝐘𝐎𝐔𝐑 𝐎𝐖𝐍 𝐑𝐈𝐒𝐊 🔥
 
-𝔽𝕆ℝ 𝔻𝔼ℙ𝕃𝕆𝕐 𝕆ℕ ℍ𝔼ℝ𝔸𝕂𝕌 𝕋𝔸ℙ 𝕆ℕ 𝕋ℍ𝔼 𝔹𝕌𝕋𝕋𝕆ℕ ☟︎︎︎
+𝔽𝕆ℝ 𝔻𝔼ℙ𝕃𝕆𝕐 𝕆ℕ ℍ𝔼ℝ𝕆𝕂𝕌 𝕋𝔸ℙ 𝕆ℕ 𝕋ℍ𝔼 𝔹𝕌𝕋𝕋𝕆ℕ ☟︎︎︎
 
 
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ToxicCybers/MentosMusic">
