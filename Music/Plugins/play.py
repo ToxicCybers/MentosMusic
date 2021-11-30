@@ -95,34 +95,55 @@ async def play(_, message: Message):
         "I don't have the required permission to perform this action."
         + "\n**Permission:** __BAN USERS__")
         return
+    chid = message.chat.id
+
     try:
-        b = await app.get_chat_member(message.chat.id , user_id) 
-        if b.status == "kicked":
-            await message.reply_text(f"{ASSNAME}(@{ASSUSERNAME}) is banned in your chat **{chat_title}**\n\nUnban it first to use Music")
-            return
-    except UserNotParticipant:
-        if message.chat.username:
-            try: 
-                await ASS_ACC.join_chat(f"{message.chat.username}")
-                await message.reply(f"{ASSNAME} Joined Successfully",) 
-                await remove_active_chat(chat_id)
-            except Exception as e:
-                await message.reply_text(f"__**Assistant Failed To Join**__\n\n**Reason**:{e}")
-                return
-        else:
-            try:
-                xxy = await app.export_chat_invite_link(message.chat.id)
-                #xxy = xxy.invite_link
-                inv_lnk=str(xxy)
-                inv_lnk = inv_lnk.replace("https://t.me/+","https://t.me/joinchat/")
-                await ASS_ACC.join_chat(inv_lnk)
-                await message.reply(f"{ASSNAME} Joined Successfully",) 
-                #yxy = await app.revoke_chat_invite_link(message.chat.id, xxy)
-                await remove_active_chat(chat_id)
-            except UserAlreadyParticipant:
-                pass
-            except Exception as e:
-                return await message.reply_text(f"__**Assistant Failed To Join**__\n\n**Reason**:{e}")       
+        user = await USER.get_me()
+    except:
+        user.first_name = "OpAssistant"
+    usar = user
+    wew = usar.id
+    try:
+        await _.get_chat_member(chid, wew)
+    except:
+        for administrator in administrators:
+            if administrator == message.from_user.id:
+                await lel.edit(
+                    "<b>Remember to add Assistant to your Group</b>",
+                )
+                try:
+                    invitelink = await _.export_chat_invite_link(chid)
+                except:
+                    await lel.edit(
+                        "<b>Add me as admin With Full Permission  first In Your Group</b>",
+                    )
+                    return
+
+                try:
+                    await USER.join_chat(invitelink)
+                    await USER.send_message(
+                        message.chat.id,
+                        "Assistant joined this group for playing music in VC",
+                    )
+                    await lel.edit(
+                        "<b>Assistant joined this chat</b>",
+                    )
+
+                except UserAlreadyParticipant:
+                    pass
+                except Exception:
+                    await lel.edit(
+                        f"<b>🛑 Flood Wait Error 🛑</b> \n\Hey {user.first_name}, assistant userbot couldn't join your group due to heavy join requests. Make sure userbot is not banned in group and try again later!"
+                    )
+    try:
+        await USER.get_chat(chid)
+        # lmoa = await client.get_chat_member(chid,wew)
+    except:
+        await lel.edit(
+            f"<i>Hey {user.first_name}, assistant userbot is not in this chat, ask admin to send /play command for first time to add it.</i>"
+        )
+        return
+       
     audio = (message.reply_to_message.audio or message.reply_to_message.voice) if message.reply_to_message else None
     url = get_url(message)
     await message.delete()
