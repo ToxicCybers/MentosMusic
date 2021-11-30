@@ -24,7 +24,7 @@ pyromod
 requests
 speedtest-cli
 uvloop
-git+https://github.com/yt-dlp/yt-dlp@master
+yt-dlp
 telegraph
 hachoir
 lyricsgenius
