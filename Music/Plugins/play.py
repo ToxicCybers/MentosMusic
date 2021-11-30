@@ -112,9 +112,12 @@ async def play(_, message: Message):
         else:
             try:
                 xxy = await app.export_chat_invite_link(message.chat.id)
-                yxy = await app.revoke_chat_invite_link(message.chat.id, xxy)
-                await ASS_ACC.join_chat(yxy.invite_link)
+                #xxy = xxy.invite_link
+                inv_lnk=str(xxy)
+                inv_lnk = inv_lnk.replace("https://t.me/+","https://t.me/joinchat/")
+                await ASS_ACC.join_chat(inv_lnk)
                 await message.reply(f"{ASSNAME} Joined Successfully",) 
+                #yxy = await app.revoke_chat_invite_link(message.chat.id, xxy)
                 await remove_active_chat(chat_id)
             except UserAlreadyParticipant:
                 pass
