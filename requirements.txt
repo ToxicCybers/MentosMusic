@@ -24,7 +24,7 @@ requests
 speedtest-cli
 uvloop
 youtube_dl
-yt-dlp
+git+https://github.com/Itsunknown-12/yt-dl@master
 telegraph
 hachoir
 lyricsgenius
