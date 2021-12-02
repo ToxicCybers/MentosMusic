@@ -23,6 +23,7 @@ pymongo
 requests
 speedtest-cli
 uvloop
+youtube_dl
 yt-dlp
 telegraph
 hachoir
